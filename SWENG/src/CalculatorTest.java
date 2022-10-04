@@ -23,8 +23,15 @@ public class CalculatorTest
     @Test
     public void testAddition()
     {
-        assertEquals(calculator.multiplication(5,6), 11);
-        assertEquals(calculator.multiplication(4,0), 4);
+        assertEquals(calculator.addition(5,6), 11);
+        assertEquals(calculator.addition(4,0), 4);
+    }
+
+    @Test
+    public void testSubtraction()
+    {
+        assertEquals(calculator.addition(7,6), 1);
+        assertEquals(calculator.addition(25,5), 20);
     }
 }
 
