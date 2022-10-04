@@ -19,4 +19,12 @@ public class CalculatorTest
         assertEquals(calculator.multiplication(1,2), 2);
         assertEquals(calculator.multiplication(5,6), 30);
     }
+
+    @Test
+    public void testAddition()
+    {
+        assertEquals(calculator.multiplication(5,6), 11);
+        assertEquals(calculator.multiplication(4,0), 4);
+    }
 }
+
